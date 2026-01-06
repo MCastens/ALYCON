@@ -1,0 +1,27 @@
+{
+  "dataset_size": 185,
+  "cm_count": 83,
+  "ap_statistics": {
+    "cm_zeros_mean": 56.86746987951807,
+    "cm_zeros_std": 11.160138925094348,
+    "t_statistic": -18.09294172914304,
+    "p_value": 1.2859782303691195e-42
+  },
+  "classification": {
+    "Logistic Regression": 0.9705882352941176,
+    "Random Forest": 0.9705882352941176,
+    "SVM (RBF)": 1.0
+  },
+  "cross_validation": {
+    "Logistic Regression": 0.9944444444444445,
+    "Random Forest": 0.9944444444444445,
+    "SVM (RBF)": 1.0
+  },
+  "permutation_p": 0.004,
+  "clustering": {
+    "purity": 0.9903614457831326,
+    "enrichment": 2.2074321381913196,
+    "z_score": 2.4354919236966897
+  },
+  "status": "PUBLICATION_READY"
+}

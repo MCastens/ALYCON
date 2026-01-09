@@ -1,0 +1,26 @@
+{
+  "dataset_size": 975,
+  "source": "LMFDB (L-functions and Modular Forms Database) - standard format only",
+  "date": "2026-01-07",
+  "cm_count": 452,
+  "non_cm_count": 523,
+  "classification_accuracy": 1.0,
+  "correct_predictions": 975,
+  "incorrect_predictions": 0,
+  "ap_statistics": {
+    "cm_zeros_mean": 60.85,
+    "non_cm_zeros_mean": 4.68,
+    "separation": 56.17
+  },
+  "threshold": 20,
+  "method": "ALYCON zero-shot (unchanged from original 185-curve validation)",
+  "status": "PERFECT_CLASSIFICATION_AT_SCALE",
+  "notes": [
+    "Dataset expanded from 185 to 975 standard LMFDB curves",
+    "Framework unchanged - no retraining or parameter tuning",
+    "100% accuracy - zero errors",
+    "All curves use standard LMFDB label format (e.g., 27a1)",
+    "Removed 100 curves with non-standard period format from different source",
+    "All curves independently verifiable via LMFDB.org"
+  ]
+}

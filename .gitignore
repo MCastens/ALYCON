@@ -1,36 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-*.egg-info/
-dist/
-build/
-
-# Proprietary implementation files
-*_implementation.py
-*_core.py
-*_proprietary.*
-
-# Private data
-*.private
-*.key
-*.secret
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
-# IDE
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # Temporary files
 *.tmp
+*.bak
 *.log
-test-results/
